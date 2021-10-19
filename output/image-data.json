@@ -1,0 +1,14 @@
+{
+  "palette": [
+    "",
+    "000000"
+  ],
+  "images": {
+    "root": [
+      {
+        "filename": "output.png",
+        "data": "0x0000000000"
+      }
+    ]
+  }
+}
