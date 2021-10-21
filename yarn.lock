@@ -454,15 +454,9 @@
     "@ethersproject/properties" "^5.4.0"
     "@ethersproject/strings" "^5.4.0"
 
-"@nouns/contracts@^0.1.2":
-  "integrity" "sha512-BzP0iBgqbfNa+NJTykUzZYzgisAc2nkFjZXHWAf5pywLDviOgFKIULM0kmlR2iPyHtTQ5Y4My5yduwolmfAQAQ=="
-  "resolved" "https://registry.npmjs.org/@nouns/contracts/-/contracts-0.1.2.tgz"
-  "version" "0.1.2"
-
-"@nouns/sdk@^0.1.2":
-  "integrity" "sha512-J3kCqdx76ESZ2jNxYfCYlgonltZW6omiHzu4wtc/5jRe5WBDsVrnF4htnCMAgh0AIldRsIbujskXZfU8iafqvA=="
-  "resolved" "https://registry.npmjs.org/@nouns/sdk/-/sdk-0.1.2.tgz"
-  "version" "0.1.2"
+"@nouns/sdk@file:../nouns-monorepo/packages/nouns-sdk":
+  "resolved" "file:../nouns-monorepo/packages/nouns-sdk"
+  "version" "0.1.3"
   dependencies:
     "@nouns/contracts" "^0.1.2"
     "ethers" "^5.4.7"
@@ -2122,7 +2116,7 @@
   "resolved" "https://registry.npmjs.org/esutils/-/esutils-2.0.3.tgz"
   "version" "2.0.3"
 
-"ethers@^5.4.7", "ethers@>=5.0.0":
+"ethers@^5.4.7":
   "integrity" "sha512-iZc5p2nqfWK1sj8RabwsPM28cr37Bpq7ehTQ5rWExBr2Y09Sn1lDKZOED26n+TsZMye7Y6mIgQ/1cwpSD8XZew=="
   "resolved" "https://registry.npmjs.org/ethers/-/ethers-5.4.7.tgz"
   "version" "5.4.7"
