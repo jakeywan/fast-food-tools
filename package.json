@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/rleEncodeImage.js --exec babel-node"
+    "start": "node src/rleEncodeImage.js --exec babel-node",
+    "encode-images": "node ./src/rleEncodeImage.js"
   },
   "type": "module",
   "author": "",
