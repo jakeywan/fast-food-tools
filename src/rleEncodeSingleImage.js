@@ -11,7 +11,7 @@ const DESTINATION = path.join(__dirname, '../output/singleWearable.json');
 
 const encode = async () => {
   const encoder = new PNGCollectionEncoder()
-  const filepath = path.join(__dirname, '../wearablesImages/customBodies/stain.png')
+  const filepath = path.join(__dirname, '../wearablesImages/customGlasses/fast-food-glasses.png')
   const image = await readPngFile(filepath)
   encoder.encodeImage(filepath.replace(/\.png$/, ''), image)
   await encoder.writeToFile(DESTINATION)
